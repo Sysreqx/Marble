@@ -1,0 +1,18 @@
+.html, body {
+	height: 100%;
+}
+
+.body {
+	background-color: #e7e7e7;
+}
+
+header {
+	height: 100%;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+.wrapper {
+	display: inline-block;
+}
