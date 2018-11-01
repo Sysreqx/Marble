@@ -5,99 +5,93 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Marble</title>
-	<link href="normalize.css" type="text/css" rel="stylesheet">
-	<link href="style.css" type="text/css" rel="stylesheet">
+	<link href="css/normalize.css" type="text/css" rel="stylesheet">
+	<link href="css/style.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
 	<!-- Header -->
-	<header>
-		<div class="wrapper">
-			<div class="logo">
-				<img src="images/logo.png" alt="logo">
-			</div>
-			<nav>
-				<li><a href="">Home</a></li>
-				<li><a href="">About</a></li>
-				<li><a href="">Journal</a></li>
-				<li><a href="">Service</a></li>
-				<li><a href="">Features</a></li>
-				<li><a href="">Contact</a></li>
-			</nav>
+	<header class="flex-container">
+		<div class="logo">
+			<img src="images/logo.png" alt="logo">
 		</div>
+		<nav>
+			<li><a href="" class="a-active">Home</a></li>
+			<li><a href="">About</a></li>
+			<li><a href="">Journal</a></li>
+			<li><a href="">Service</a></li>
+			<li><a href="">Features</a></li>
+			<li><a href="">Contact</a></li>
+		</nav>
 	</header>
 
 	<!-- Slider -->
 	<div class="slider">
-		<div class="wrapper">
-			<h2>We are a digital & branding agency based in London.</h2>
-			<h3>We love to turn great ideas into beautiful products.</h3>
-			<p><a href="#">see Portfolio</a></p>
-		</div>
+		<h2>We are a digital & branding agency based in London.</h2>
+		<h3>We love to turn great ideas into beautiful products.</h3>
+		<a href="#">see Portfolio</a>
 	</div>
 
 	<!-- Main -->
-	<main>
-		<div class="wrapper">
-			<div class="services">
-				<div class="service">
-					<img src="images/icon-1.jpg" alt="icon-1">
-					<h4>Pellentesque</h4>
-					<h5>Nulla vitae  libero, a pharetra augue. Integer posuere erat a ante venenatis condimentum velit dapibus.</h5>
-				</div>
-				<div class="service">
-					<img src="images/icon-2.jpg" alt="icon-2">
-					<h4>Consectetur</h4>
-					<h5>Vestibulum id ligula porta  euismod semper. Aenean lacinia bibe</h5>
-				</div>
-				<div class="service">
-					<img src="images/icon-3.jpg" alt="icon-3">
-					<h4>Tristiquet</h4>
-					<h5>Fusce dapibus, cursus commodo, tortor mauris condimentum nibh,</h5>
-				</div>
-				<div class="service">
-					<img src="images/icon-4.jpg" alt="icon-4">
-					<h4>Fermentum</h4>
-					<h5>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venena</h5>
-				</div>
+	<main class="flex-container">
+		<div class="services">
+			<div class="service">
+				<img src="images/icon-1.jpg" alt="icon-1">
+				<h4>Pellentesque</h4>
+				<h5>Nulla vitae  libero, a pharetra augue. Integer posuere erat a ante venenatis condimentum velit dapibus.</h5>
+			</div>
+			<div class="service">
+				<img src="images/icon-2.jpg" alt="icon-2">
+				<h4>Consectetur</h4>
+				<h5>Vestibulum id ligula porta  euismod semper. Aenean lacinia bibe</h5>
+			</div>
+			<div class="service">
+				<img src="images/icon-3.jpg" alt="icon-3">
+				<h4>Tristiquet</h4>
+				<h5>Fusce dapibus, cursus commodo, tortor mauris condimentum nibh,</h5>
+			</div>
+			<div class="service">
+				<img src="images/icon-4.jpg" alt="icon-4">
+				<h4>Fermentum</h4>
+				<h5>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venena</h5>
 			</div>
 		</div>
 
 		<div class="latest-works">
-			<div class="wrapper">
-				<h4>Our Latest Works</h4>
-				<work>
+			<h4>Our Latest Works</h4>
+			<div class="works">
+				<div class="work">
 					<img src="images/snap-1.jpg" alt="snap1">
 					<h4>Nobis Business Card</h4>
 					<h5>Business Card, Graphic</h5>
 					<p>Sed posuere consectetur est at lobortis. Porta sagittis lacus v</p>
-				</work>
-				<work>
+				</div>
+				<div class="work">
 					<img src="images/snap-2.jpg" alt="snap2">
 					<h4>New Fun Project</h4>
 					<h5>Web Design, Application</h5>
 					<p>Nulla vitae elit libero, a pharetra augue. Donec sed odio dui.</p>
-				</work>
-				<work>
+				</div>
+				<div class="work">
 					<img src="images/snap-3.jpg" alt="snap3">
 					<h4>Passionaries Branding Cover</h4>
 					<h5>Branding, Graphic Design</h5>
 					<p>Curabitur blandit tempus porttitor. Donec id elit non mi porta</p>
-				</work>
+				</div>
 			</div>
 		</div>
 	</main>
 
 	<!-- Testimonials -->
 	<div class="testimonial">
-		<div class="wrapper">
+		<div class="flex-container">
 			<p>&rdquo;</p>
-			<q>Cras mattis consectetur purus sit amet fermentum. Donec id elit</q>
+			<p class="quot">Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus erat porttitor.</p>
 		</div>
 	</div>
 
 	<!-- Footer -->
-	<footer>
+	<footer class="flex-container">
 		<ul>
 			<li><h4>Get In Touch</h4></li>
 			<li>Fusce dapibus, tellus commodo, tortor mauris condimentum utellus fermentum, porta sem malesuada magna.</li>
@@ -139,9 +133,5 @@
 			<p>&copy; 2013 Marble. All rights reserved. Theme by elemis.</p>
 		</div>
 	</footer>
-
-
-
-
 </body>
 </html>

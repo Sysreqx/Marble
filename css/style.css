@@ -1,9 +1,29 @@
-.html, body {
-	height: 100%;
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+body {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	background-color: #f7f7f7;
 }
 
-.body {
-	background-color: #e7e7e7;
+a, h4, p {
+	color: #4e4e4e;
+	/*1abb9c active*/
+}
+
+h2 {
+	color: #f3f3f3;
+}
+
+h3, h5 {
+	color: #a8a8a8;
+}
+
+.flex-container {
+	margin: 0 9%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
 header {
@@ -13,6 +33,155 @@ header {
 	justify-content: center;
 }
 
-.wrapper {
-	display: inline-block;
+header.flex-container {
+    justify-content: space-between;
+    padding: 35px 0;
+    align-items: center;
+}
+
+.logo {
+	
+display: flex;
+	
+align-items: center;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+a:hover, .a-active {
+	color: #1abb9c;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+nav li:last-child {
+	padding: 0;
+}
+
+/* Slider */
+.slider {
+	background-image: url(../images/banner.jpg);
+	/*background-color: used if the image is unavailable*/
+	height: 400px; /* You must set a specified height */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat;
+	-webkit-background-size: cover; /* Do not repeat the image */
+	background-size: cover;	/* Resize the background image to cover the entire container */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.slider a {
+    padding: 20px;
+    background-color: #3f8dbf;
+    border-radius: 3px;
+    color: #f3f3f3;;
+    box-shadow: 0px 4px #3678a3;
+}
+
+.slider a:hover {
+	
+    background-color: #327aa9;
+    box-shadow: 0px 4px #44799a;
+}
+
+main .services {
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: stretch;
+
+margin-top: 60px;
+
+margin-bottom: 40px;
+
+padding: 0 30px 30px;
+
+border-bottom: 2px solid #dcdcdc;
+}
+
+main .service {
+	display: flex;
+	flex-direction: column;
+	width: 22%;
+}
+
+main .service img {
+margin: 0 auto;
+display: block;
+}
+
+/* Our Latest Works */
+main .latest-works {
+	
+width: 100%;
+	
+text-align: left;
+	
+margin-bottom: 60px;
+}
+
+main .latest-works .works {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+main .latest-works h4 {
+	text-transform: uppercase;
+}
+
+main .latest-works p {
+	color: #5c5c5c;
+}
+
+main .latest-works .work {
+	width: 32.5%;
+}
+
+main .latest-works .work img{
+	width: 100%;
+}
+
+/* Testimonial */
+.testimonial {
+	
+    background-color: #efefef;
+
+}
+
+.testimonial .flex-container {
+    padding: 30px 12% 60px;
+}
+
+.testimonial .flex-container p{
+	margin: 0;
+    color: #dcdcdc;
+    font-size: 67px;
+}
+
+.testimonial .flex-container .quot {
+    color: #a1a1a1;
+    font-size: 22px;
 }
